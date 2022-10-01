@@ -361,7 +361,7 @@ overflow: hidden;
     padding-right: 40px;
     z-index: 1;
      -webkit-clip-path: circle(1.0% at 0 46%);
-clip-path: circle(1.0% at 0 46%); 
+clip-path: circle(1.0% at 10 100%); 
 margin-top: 30px;
 
 }
@@ -426,6 +426,7 @@ margin-top: 30px;
  -webkit-clip-path: circle(150% at 8% 52%);
 clip-path: circle(150% at 8% 52%); 
 
-transition-property: circle(150% at 8% 52%); 
-transition: 5s; 
+transition-property: circle(150% at 30% 50%); 
+ /* transition: 4s;   */
+ transition-duration: 5s;
 } 
