@@ -58,6 +58,6 @@ let a=document.querySelector("#showm");
             slidenum++;
             if(slidenum>numofslides-1){slidenum=0;}
             slides[slidenum].classList.add("active");
-            },4000)
+            },7500)
         }
         repeata();
